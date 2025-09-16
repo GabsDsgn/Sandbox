@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandbox - Document Preview</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #0366d6;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+            border-left: 4px solid #0366d6;
+        }
+        .file-list a {
+            text-decoration: none;
+            color: #0366d6;
+            font-weight: 500;
+        }
+        .file-list a:hover {
+            text-decoration: underline;
+        }
+        .description {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        .quick-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 10px 20px;
+            background: #0366d6;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background: #0256cc;
+        }
+        .btn.secondary {
+            background: #6f42c1;
+        }
+        .btn.secondary:hover {
+            background: #5a32a3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🚀 Sandbox Repository</h1>
+        <p>Document Preview and Testing Environment</p>
+    </div>
+
+    <div class="section">
+        <h2>📝 Documentation</h2>
+        <ul class="file-list">
+            <li>
+                <a href="docs/template.md">Document Template</a>
+                <div class="description">A comprehensive template for creating new documents</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📋 Examples</h2>
+        <ul class="file-list">
+            <li>
+                <a href="examples/sample-document.md">Sample Document</a>
+                <div class="description">Example markdown document showcasing various features</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>✏️ Drafts</h2>
+        <ul class="file-list">
+            <li>
+                <a href="drafts/work-in-progress.md">Work in Progress</a>
+                <div class="description">Draft documents and experimental content</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🖼️ Assets</h2>
+        <ul class="file-list">
+            <li>
+                <a href="assets/">Assets Folder</a>
+                <div class="description">Images, diagrams, and media files</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Quick Actions</h2>
+        <div class="quick-actions">
+            <a href="docs/template.md" class="btn">New Document</a>
+            <a href="examples/" class="btn secondary">View Examples</a>
+            <a href="drafts/" class="btn secondary">My Drafts</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>💡 Getting Started</h2>
+        <ol>
+            <li>Copy the <a href="docs/template.md">template.md</a> to start a new document</li>
+            <li>Place images and media in the <a href="assets/">assets</a> folder</li>
+            <li>Use the <a href="drafts/">drafts</a> folder for work-in-progress content</li>
+            <li>Check <a href="examples/">examples</a> for formatting reference</li>
+        </ol>
+    </div>
+</body>
+</html>

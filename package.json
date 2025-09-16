@@ -1,0 +1,24 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox repository for markdown document preview and testing",
+  "main": "index.js",
+  "scripts": {
+    "preview": "live-server --port=3000 --mount=/docs:docs --mount=/examples:examples --mount=/drafts:drafts",
+    "serve": "http-server -p 3000 -o",
+    "install-tools": "npm install -g live-server http-server markdown-preview-enhanced-cli",
+    "help": "echo 'Available commands: npm run preview, npm run serve, npm run install-tools'"
+  },
+  "keywords": [
+    "sandbox",
+    "markdown",
+    "preview",
+    "documentation"
+  ],
+  "author": "Gabs",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  }
+}
